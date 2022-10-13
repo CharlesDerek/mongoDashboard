@@ -2,8 +2,8 @@
 
 ![npm downloads badge](https://img.shields.io/npm/dm/admin-mongo.svg "npm download badge")
 ![npm version badge](https://img.shields.io/npm/v/admin-mongo.svg "npm version badge")
-[![Build Status](https://travis-ci.org/mrvautin/adminMongo.svg?branch=master)](https://travis-ci.org/mrvautin/adminMongo)
-[![Github stars](https://img.shields.io/github/stars/mrvautin/adminMongo.svg?style=social&label=Star)](https://github.com/mrvautin/adminMongo)
+[![Build Status](https://travis-ci.org/charlesderek/adminMongo.svg?branch=master)](https://travis-ci.org/charlesderek/adminMongo)
+[![Github stars](https://img.shields.io/github/stars/charlesderek/adminMongo.svg?style=social&label=Star)](https://github.com/charlesderek/adminMongo)
 
 adminMongo is a cross platform user interface (GUI) to handle all your MongoDB connections/databases needs. adminMongo is fully responsive and should work on a range of devices.
 
@@ -11,11 +11,11 @@ adminMongo is a cross platform user interface (GUI) to handle all your MongoDB c
 
 ## Support
 
-If my work helps you, please consider [![buying me a coffee](https://cdn-images-1.medium.com/max/738/1*G95uyokAH4JC5Ppvx4LmoQ@2x.png)](https://www.buymeacoffee.com/mrvautin)
+If my work helps you, please consider [![buying me a coffee](https://cdn-images-1.medium.com/max/738/1*G95uyokAH4JC5Ppvx4LmoQ@2x.png)](https://www.buymeacoffee.com/charlesderek)
 
 ## Installation
 
-1. Navigate to folder & install adminMongo: `git clone https://github.com/mrvautin/adminMongo.git && cd adminMongo`
+1. Navigate to folder & install adminMongo: `git clone https://github.com/charlesderek/adminMongo.git && cd adminMongo`
 2. Install dependencies: `npm install`
 3. Start application: `npm start` or `node app`
 4. Visit [http://127.0.0.1:1234](http://127.0.0.1:1234) in your browser
@@ -44,17 +44,17 @@ Once built, the executable will be in the `/releases` folder.
 
 Prebuilt binaries can be downloaded here:
 
-[Mac 64bit](https://github.com/mrvautin/adminMongo/releases/download/1.0.0/adminMongo_Mac.zip)
+[Mac 64bit](https://github.com/charlesderek/adminMongo/releases/download/1.0.0/adminMongo_Mac.zip)
 
-[Windows 32bit](https://github.com/mrvautin/adminMongo/releases/download/1.0.0/adminMongo_Win32.zip)
+[Windows 32bit](https://github.com/charlesderek/adminMongo/releases/download/1.0.0/adminMongo_Win32.zip)
 
-[Windows 64bit](https://github.com/mrvautin/adminMongo/releases/download/1.0.0/adminMongo_Win64.zip)
+[Windows 64bit](https://github.com/charlesderek/adminMongo/releases/download/1.0.0/adminMongo_Win64.zip)
 
 > The Electron builds have been tested on Mac and Windows 10. Linux has not been tested. Please report any issues.
 
 ## Deploy on Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrvautin/adminMongo)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/charlesderek/adminMongo)
 
 ## Demo (read only)
 
@@ -181,21 +181,21 @@ The connection can also be automatically initiated through the environment (or w
 |`DB_NAME`|The name of the database|
 
 *The Connection setup screen*
-![adminMongo connections screen](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/adminMongo/adminMongo_connections.png "adminMongo connections screen")
+![adminMongo connections screen](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo_connections.png "adminMongo connections screen")
 
 ### Connection/Database admin
 
 After opening your newly created connection, you are able to see all database objects associated with your connection. Here you can create/delete collections, create/delete users and see various stats for your database.
 
 *The connections/database screen*
-![adminMongo database screen](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/adminMongo/adminMongo_dbview.png "adminMongo database screen")
+![adminMongo database screen](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo_dbview.png "adminMongo database screen")
 
 ### Collections
 
 After selecting your collection from the "Database Objects" menu, you will be presented with the collections screen. Here you can see documents in pagination form, create new documents, search documents, delete, edit documents and view/add indexes to your collection.
 
 *The collections screen*
-![adminMongo collections screen](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/adminMongo/adminMongo_collectionview.png "adminMongo collections screen")
+![adminMongo collections screen](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo_collectionview.png "adminMongo collections screen")
 
 ### Searching/Querying documents
 
@@ -204,7 +204,7 @@ You can perform searches of documents using the `Search documents` button on the
 > You can clear your search by clicking the `Reset` button on the collections screen.
 
 *Simple search documents*
-![adminMongo search documents](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/adminMongo/adminMongo_searchdocuments.png "adminMongo search documents")
+![adminMongo search documents](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo_searchdocuments.png "adminMongo search documents")
 
 Complex querying of documents is done through the "Query documents" button. This allows a query Object to be passed to MongoDB to return results.
 Queries can be written in full BSON format or EJSON format. For example these queries should return the same results:
@@ -224,7 +224,7 @@ is equivalent to:
 ```
 
 *Query documents*
-![adminMongo search documents](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/adminMongo/adminMongo_querydocuments.png "adminMongo search documents")
+![adminMongo search documents](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo_querydocuments.png "adminMongo search documents")
 
 
 ### Documents
@@ -232,12 +232,12 @@ is equivalent to:
 Adding and editing documents is done using a JSON syntax highlighting control.
 
 *Editing a document*
-![adminMongo documents](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/adminMongo/adminMongo_docedit.png "adminMongo documents")
+![adminMongo documents](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo_docedit.png "adminMongo documents")
 
 Documents with Media embedded show previews
 
 *Documents with media*
-![adminMongo media](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/adminMongo/adminMongo_media.png "adminMongo media documents")
+![adminMongo media](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo_media.png "adminMongo media documents")
 
 ### Server Monitoring
 
@@ -248,14 +248,14 @@ Selected server monitoring is done at regular intervals and stored in local data
 *New connections require an app restart for monitoring to commence*
 
 *Server monitoring*
-![adminMongo server monitoring](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/adminMongo/adminMongo_servermonitoring.png "adminMongo server monitoring")
+![adminMongo server monitoring](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo_servermonitoring.png "adminMongo server monitoring")
 
 ### Indexes
 
 Indexes can be added from the collection screen. Please see the [official MongoDB documentation](https://docs.mongodb.org/manual/indexes/) on adding indexes.
 
 *Viewing/Adding indexes*
-![adminMongo documents](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/adminMongo/adminMongo_manageindexes.png "adminMongo indexes")
+![adminMongo documents](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo_manageindexes.png "adminMongo indexes")
 
 ## Tests
 
@@ -293,4 +293,4 @@ Please make any suggestions.
 
 ## License
 
-[The MIT License](https://github.com/mrvautin/adminMongo/tree/master/LICENSE)
+[The MIT License](https://github.com/charlesderek/adminMongo/tree/master/LICENSE)

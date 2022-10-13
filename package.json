@@ -2,15 +2,15 @@
   "name": "admin-mongo",
   "version": "0.0.23",
   "description": "A Web user interface to administer MongoDB databases built using Express",
-  "author": "Mark Moffat <mrvautin@gmail.com>",
+  "author": "Charles Derek <charlesderek@mrginnovations.com>",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrvautin/adminmongo"
+    "url": "https://github.com/charlesderek/adminMongo"
   },
   "main": "electron.js",
   "bugs": {
-    "url": "https://github.com/mrvautin/adminmongo/issues"
+    "url": "https://github.com/charlesderek/adminMongo/issues"
   },
   "scripts": {
     "start": "node app.js",
