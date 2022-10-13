@@ -177,7 +177,7 @@ The connection can also be automatically initiated through the environment (or w
 |`DB_NAME`|The name of the database|
 
 *The Connection setup screen*
-![adminMongo connections screen](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo_connections.png "adminMongo connections screen")
+![adminMongo connections screen](https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/main/assets/adminMongo_connections.png "adminMongo connections screen")
 
 ### Connection/Database admin
 
