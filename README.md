@@ -56,10 +56,6 @@ Prebuilt binaries can be downloaded here:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/charlesderek/adminMongo)
 
-## Demo (read only)
-
-A read only demo can be seen [here](http://demo.adminmongo.markmoffat.com)
-
 ## Features
 
 * Manage from a connection level for easy access to multiple databases

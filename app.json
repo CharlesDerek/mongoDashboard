@@ -2,6 +2,6 @@
   "name": "adminMongo",
   "description": "adminMongo is a Web based user interface (GUI) to handle all your MongoDB connections/databases needs.",
   "repository": "https://github.com/charlesderek/adminMongo",
-  "logo": "https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/master/images/adminMongo/adminMongo-Logo.png",
+  "logo": "https://raw.githubusercontent.com/charlesderek/charlesderek.github.io/origin/assets/adminMongo-Logo.png",
   "keywords": ["node", "express", "mongodb"]
 }
